@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 8vh;
+  background: rgb(84, 120, 133);
+  color: white;
+}
+
+.nav-link {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.NavLink:hover {
+  color: blanchedalmond;
+  font-weight: bold;
+}
+
+.NavLink:hover {
+  color: blanchedalmond;
+}
+
+.profile-main {
+  color: blanchedalmond;
+}
+
+.contact-main {
+  color: blanchedalmond;
+}
+
+.movie-page {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 10vh 0 10vh;
+  color: darkgray;
+  height: 100%;
+  justify-content: space-evenly;
+  .card {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #363738;
+    border-radius: 10%;
+    align-items: center;
+    max-width: 300px;
+    img {
+      width: 100%;
+      border: 1rem;
+    }
+    button {
+      border-radius: 1rem;
+      border: 1rem;
+      background-color: #4f667c;
+      color: antiquewhite;
+      margin-top: 2rem;
+      transition-duration: 0.4s;
+    }
+    button:hover {
+      background-color: #4caf50; /* Green */
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+.contact-main {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  .infos {
+    padding: 10px;
+  }
+}
+
+.profile-main-duo {
+  padding-top: 40px;
+  // padding-left: 100px;
+  // padding-right: 100px;
+  display: flex;
+  justify-content: space-evenly;
+
+  .informatiiProfil {
+    padding: 10px;
+  }
+
+  .filme-inchiriate {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
